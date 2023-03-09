@@ -3,15 +3,18 @@
 main(){
 	setlocale(LC_ALL,"Portuguese");
 	
-    float media;
+    float num;
 						
 
 	printf("Informe o numero: ");
-	scanf("%f",&media);
-	if(media>=6){
-		printf("aluno aprovado");	
+	scanf("%f",num);
+	if(num>0){
+		printf("positivo");	
+	}
+	else if(num<0){
+		printf("negativo");
 	}
 	else{
-		printf("aluno reprovado");
+		printf("zero");
 	}
 }
