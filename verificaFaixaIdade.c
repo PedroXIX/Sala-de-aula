@@ -3,7 +3,7 @@ mostre uma mensagem na tela, de acordo com a idade:
 acime de 70 - idoso
 de 21 a 70 - adulto
 de 14 a 20 - jovem
-abaixo de 14 - criança
+abaixo de 14 - crianÃ§a
 */
 #include <stdio.h>
 #include<locale.h>
@@ -15,8 +15,8 @@ main(){
 
 	printf("Informe o numero: ");
 	scanf("%d",&idade);
-	if(idade<=14){
-		printf("Criança");	
+	if(idade<14){
+		printf("CrianÃ§a");	
 	}
 	else if(idade<=20){
 		printf("jovem");
